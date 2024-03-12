@@ -3,3 +3,5 @@ description: Hosting module.
 type: module
 package: Hosting
 core_version_requirement: ^10
+dependencies:
+  - smtp:smtp
