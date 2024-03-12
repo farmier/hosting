@@ -1,0 +1,5 @@
+name: Hosting
+description: Hosting module.
+type: module
+package: Hosting
+core_version_requirement: ^10

@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Install hooks for the Hosting module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function hosting_uninstall() {
+
+  // Delete all "hosting.*" state values.
+  foreach (\Drupal::keyValue('state')->getAll() as $key => $value) {
+    if (strpos($key, 'hosting') === 0) {
+      \Drupal::state()->delete($key);
+    }
+  }
+}

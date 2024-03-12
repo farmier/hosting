@@ -1,0 +1,7 @@
+{
+  "name": "farmier/hosting",
+  "description": "Hosting",
+  "type": "drupal-module",
+  "homepage": "https://github.com/farmier/hosting",
+  "license": "GPL-2.0-or-later"
+}
